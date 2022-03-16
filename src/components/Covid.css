@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+.main-1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+    margin-top: 100px;
+    
+
+}
+.card-1 {
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+.card-1:hover{
+    background-color: darkblue;
+}
+.card-2 {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.card-2:hover{
+    background-color: darkgreen;
+}
+.card-3 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+.card-3:hover{
+    background-color: violet;
+}
+.card-name {
+    color: white;
+    font-size: 30px;
+    font-family: emoji;
+    margin-top: 50px;
+}
+.card-total {
+    color: white;
+    font-size: 28px;
+    font-family: fantasy;
+    font-weight: bold;
+    text-shadow:  black 10px 5px;
+}
+.small-name {
+    font-size: 10px;
+}
